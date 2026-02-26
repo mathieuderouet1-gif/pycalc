@@ -9,27 +9,27 @@ def addition(x : float,y : float)->float:
     return a
 
 if op == "+":
-    addition(op1,op2)
+    print(addition(op1,op2))
 
 def soustraction(x : float,y : float)->float:
     s = x - y
     return s
 
 if op == "-":
-    soustraction(op1,op2)
+    print(soustraction(op1,op2))
 
 def multiplication(x : float, y : float)->float:
     m = x * y
     return m
 
 if op == "*":
-    multiplication(op1,op2)
+    print(multiplication(op1,op2))
 
 def division(x : float, y : float)->float:
     d = x/y
     return d
 
 if  op == "/":
-    division(op1,op2)
-            
+    print(division(op1,op2))
+
 
