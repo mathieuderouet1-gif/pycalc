@@ -23,5 +23,13 @@ def multiplication(x : float, y : float)->float:
     return m
 
 if op == "*":
-    multiplication(op1,op2)    
+    multiplication(op1,op2)
+
+def division(x : float, y : float)->float:
+    d = x/y
+    return d
+
+if  op == "/":
+    division(op1,op2)
+            
 
