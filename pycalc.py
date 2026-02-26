@@ -18,3 +18,10 @@ def soustraction(x : float,y : float)->float:
 if op == "-":
     soustraction(op1,op2)
 
+def multiplication(x : float, y : float)->float:
+    m = x * y
+    return m
+
+if op == "*":
+    multiplication(op1,op2)    
+
